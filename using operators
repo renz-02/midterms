@@ -1,0 +1,45 @@
+// MINALIN, RENZ G.          DIT 1-2
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10, c = 15;
+    int sum, diff, prod, quotient;
+    int result;
+
+    printf ("Values:\n");
+    printf ("a = %d\n", a);
+    printf ("b = %d\n", b);
+    printf ("c = %d\n", c);
+
+    sum = a + c;
+    diff = b - a;
+    prod = c * a;
+    quotient = c / a;
+
+    printf ("Arithmetic Operations using A and B:\n");
+    printf ("Addition: %d\n", sum);
+    printf ("Subtraction: %d\n", diff);
+    printf ("Multiplication: %d\n", prod);
+    printf ("Division: %d\n", quotient);
+
+    printf ("Logical Operations (1 means true and 0 means false):\n");
+    result = (b > 15 && b < 5);
+    printf ("AND (b > 15 && b < 5): %d\n", result);
+
+    result = (a = 5 || a < 10);
+    printf ("OR (a = 5 || a < 10): %d\n", result);
+
+    result = !(c < 5 || c > 10);
+    printf ("NOT (!(c < 5 || c > 10)): %d\n", result);
+
+    printf ("Assignment Operations:\n");
+    a += 6;
+    b /= 5;
+    c *= 4;
+
+    printf ("a (a += 6): %d\n", a);
+    printf ("b (b /= 5): %d\n", b);
+    printf ("c (c *= 4): %d\n", c);
+
+    return 0;
+}
