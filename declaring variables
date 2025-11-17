@@ -16,7 +16,7 @@ printf ("height : %.2f\n", height);
 printf ("weight : %.2f\n", weight ); 
 printf ("grade: %c\n",grade); 
 printf ("name: %s\n", name); 
-printf ("new line of code");
+printf ("haha branch sample");
 
 return 0;
 
